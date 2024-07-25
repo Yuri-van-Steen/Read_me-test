@@ -30,7 +30,13 @@ Em seguida, é necessário adicionar o IPV4 do computador sendo utilizado, para 
 ![image](https://github.com/user-attachments/assets/f3917102-8aee-40ed-8aab-d7a8cf4e1080)
 
 Ao clicar, abre-se a página da lista de IPs de acesso.
-Para encontrar o seu IP abra o terminal de seu computador e digite o seguinte comando segundo o seu sistema operacional: 
+Clique em "**ADD CURRENT IP ADRESS**"
+![image](https://github.com/user-attachments/assets/23bb570d-90d7-4655-96f5-aa5c96e5ae79)
+
+E pronto! O seu IP já está cadastrado no MongoDB para acesso à rede.
+
+No entanto, caso haja algum erro pode-se configurar o IP manualmente.
+Para encontrar o seu IP manualmente abra o terminal de seu computador e digite o seguinte comando segundo o seu sistema operacional: 
 
 -  Windows: ipconfig /all
 -  MacOS: ipconfig getifaddr en0
