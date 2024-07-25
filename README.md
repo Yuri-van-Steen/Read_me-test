@@ -16,8 +16,26 @@ A consulta de informações do banco de dados, portanto, pode ser realizada por 
 ## A API de imagens
 
 Além da leitura das informações do banco de dados de jogos, também utilizamos uma API que, pelo nome do jogo, retorna uma imagem de uma capa do jogo no formato 16:9.
-
-![image](https://github.com/user-attachments/assets/715920c5-6075-4ed4-b9b1-a3467c0b410c)
-
-
 Vale ressaltar, que essa API não contém somente os 176 jogos do banco de dados, mas sim uma gama muito maior de opções, por isso devemos retornar erro caso um jogo que não está listado no nosso banco de dados seja requisitado
+
+![image](https://github.com/user-attachments/assets/ed69d392-d391-408c-a776-5d0839c4c5e5)
+
+
+## Conexão com o MongoDB
+
+O banco de dados é trabalhado por meio do MongoDB, um programa de database orientado à documentos, o qual utiliza documentos em JSON, schemas e consiste de um sistema NoSQL, ou seja, não necessariamente é relacional
+
+Para se conectar ao MongoDB da Síntese Júnior, de início é necessário criar uma conta no MongoDB com seu e-mail síntese e enviar seu e-mail a um dos diretores em Projetos.
+Em seguida, é necessário adicionar o IPV4 do computador sendo utilizado, para tal, no canto inferior esquerdo se encontra o menu "Network Access".
+![image](https://github.com/user-attachments/assets/f3917102-8aee-40ed-8aab-d7a8cf4e1080)
+
+Ao clicar, abre-se a página da lista de IPs de acesso.
+Para encontrar o seu IP abra o terminal de seu computador e digite o seguinte comando segundo o seu sistema operacional: 
+
+-  Windows: ipconfig /all
+-  MacOS: ipconfig getifaddr en0
+-  Linux: ip a
+
+Procure pela opção de IPV4 caso apareça diversas opções.
+Agora que você tem seu IP em mãos, volte a página no MongoDB e clique em "**Add IP Adress**" e por fim, digite seu IPV4 no primeiro campo.
+Por fim, conclua a adição.
